@@ -1,0 +1,20 @@
+@import "./fonts.postcss";
+
+html, body { @apply h-full; }
+
+#app {
+  @apply h-full w-full;
+  @apply flex flex-col;
+  @apply text-gray-800;
+}
+
+section {
+  @apply flex flex-col items-center;
+}
+
+:focus-visible {
+  outline: transparent !important;
+}
+:focus {
+  outline: transparent !important;
+}

@@ -1,0 +1,43 @@
+{
+  "applicationId": "js.neutralino.template",
+  "defaultMode": "window",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "url": "/dist/",
+  "tokenSecurity": "one-time",
+  "nativeAllowList": [
+    "app.*",
+    "os.*"
+  ],
+  "logging": {
+    "enabled": false,
+    "writeToLogFile": false
+  },
+  "modes": {
+    "window": {
+      "title": "Neutralino - Templater",
+      "width": 800,
+      "height": 660,
+      "minWidth": 400,
+      "minHeight": 660,
+      "resizable": true,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/src/assets/images/icon.png",
+      "enableInspector": false,
+      "borderless": false,
+      "maximize": false,
+      "hidden": false,
+      "exitProcessOnClose": true
+    },
+    "browser": {},
+    "cloud": {}
+  },
+  "cli": {
+    "binaryName": "neutralino-template",
+    "resourcesPath": "/dist/",
+    "clientLibrary": "/src/assets/scripts/neutralino.js",
+    "binaryVersion": "4.4.0",
+    "clientVersion": "3.3.0"
+  }
+}
