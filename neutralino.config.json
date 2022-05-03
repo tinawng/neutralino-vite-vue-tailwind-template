@@ -1,5 +1,6 @@
 {
   "applicationId": "js.neutralino.template",
+  "version": "1.0.0",
   "defaultMode": "window",
   "enableServer": true,
   "enableNativeAPI": true,
@@ -12,6 +13,9 @@
   "logging": {
     "enabled": false,
     "writeToLogFile": false
+  },
+  "globalVariables": {
+    "UPDATE_MANIFEST_URL": "https://__url__/manifest.json"
   },
   "modes": {
     "window": {
@@ -37,7 +41,7 @@
     "binaryName": "neutralino-template",
     "resourcesPath": "/dist/",
     "clientLibrary": "/src/assets/scripts/neutralino.js",
-    "binaryVersion": "4.4.0",
+    "binaryVersion": "4.5.0",
     "clientVersion": "3.3.0"
   }
 }

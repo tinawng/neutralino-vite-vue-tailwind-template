@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        '3xs': '.6rem',
+        '2xs': '.65rem'
+      },
     },
     screens: {
       'sm': '1024px',
